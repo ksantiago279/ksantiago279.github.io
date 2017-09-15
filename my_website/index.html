@@ -1,4 +1,4 @@
-<!doctype html>
+<doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,6 +7,33 @@
   <LINK REL="SHORTCUT ICON"
        HREF="images/PSG-logo.png">
   <body>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #008B8B;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><p style="color:#7FFFD4">Home Page</h1>
+</div>
+
+</body>
+</html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,7 +101,7 @@ body {
 </div>
 
 <div id="main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Links</span>
 </div>
 
 <script>
@@ -93,11 +120,143 @@ function closeNav() {
      
 </body>
 </html> 
-<a href="http://catmario.games/">Cat Mario</a>
 </html>
-    <h1>This is my test Home Page!</h1>
-    <img src="images/home.jpg" alt="Home" height="250" width="250">
-  </body>
+</html>
+<!DOCTYPE html>
+    <img src="home.jpg" height="250">
+    <br>
+    <a target="_blank" href="https://scratch.mit.edu">
+      <img src="lostgalaxy.jpg" height="100">
+    </a>
+	  </body>
+	</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 300 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("lostgalaxy.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("aboutme-kid.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("youtube.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("lostgalaxy.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="parallax"></div>
+<div class="bgimg-1">
+  <div class="caption">
+  </div>
+</div>
+
+<div style="color: #777;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Parallax Demo</h3>
+  <p>Parallax scrolling is somthing that is in progress, so be patient with this website. It is in its beta stages.</p>
+</div>
+
+
+<div class="parallax"></div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">*BETA*</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#777;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>Parallax scrolling is somthing that is in progress, so be patient with this website. It is in its beta stages.</p>
+  </div>
+</div>
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">*BETA*</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#777;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>Parallax scrolling is somthing that is in progress, so be patient with this website. It is in its beta stages.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">Scroll Up</span>
+  </div>
+</div>
+
+</body>
 </html>
 <!DOCTYPE html>
 <html>
@@ -126,8 +285,3 @@ a:active {
 </style>
 </head>
 <body>
-<!DOCTYPE html>
-<html>
-<body bgcolor="#7FFFD4">
-</body>
-</html>
